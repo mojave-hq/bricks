@@ -62,7 +62,7 @@ class BricksPluginProvider
     {
         \wp_enqueue_style(
             $this->slug . '-styles',
-            plugin_dir_url(__FILE__) . 'public/css/bricks.css',
+            plugin_dir_url(__FILE__) . 'public/css/plugin.css',
             array(),
             '1.0.0',
             'all'
@@ -73,7 +73,7 @@ class BricksPluginProvider
     {
         \wp_enqueue_script(
             $this->slug . '-scripts',
-            plugin_dir_url(__FILE__) . 'public/js/bricks.js',
+            plugin_dir_url(__FILE__) . 'public/js/plugin.js',
             $this->dependencies,
             '1.0.0',
             'all'
