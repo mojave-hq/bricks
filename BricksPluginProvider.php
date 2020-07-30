@@ -82,7 +82,7 @@ class BricksPluginProvider
 }
 
 function bootstrap() {
-    BricksProvider::instance()->register();
+    BricksPluginProvider::instance()->register();
 }
 
 bootstrap();
