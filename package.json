@@ -1,7 +1,7 @@
 {
   "name": "bricks",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bricks is a WordPress starter plugin to quickly and cleanly build Gutenburg blocks.",
   "main": "index.js",
   "scripts": {
     "dev": "npm run development",
@@ -21,7 +21,6 @@
     "laravel-mix-tailwind": "^0.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "tailwindcss": "^1.6.0",
-    "vue-template-compiler": "^2.6.11"
+    "tailwindcss": "^1.6.0"
   }
 }

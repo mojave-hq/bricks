@@ -21,12 +21,11 @@ const { registerBlockType } = wp.blocks; // Import registerBlockType() from wp.b
  *                             registered; otherwise `undefined`.
  */
 registerBlockType('bricks/example-block', {
-    title: __('example-block - Bricks Block'), // Block title.
+    title: __('Example Bricks Block'), // Block title.
     icon: 'shield', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
     category: 'common', // Block category — Group blocks together based on common traits E.g. common, formatting, layout widgets, embed.
     keywords: [
-        __('example-block — Bricks Block'),
-        __('Bricks Example Block'),
+        __('Example Bricks Block'),
     ],
 
     /**
@@ -41,10 +40,11 @@ registerBlockType('bricks/example-block', {
      * @returns {Mixed} JSX Component.
      */
     edit: (props) => {
-        // Creates a <p class='wp-block-cgb-block-my-block'></p>.
         return (
             <div className={ props.className }>
-                <p className="p-6 bg-orange-200 text-orange-700">This is an example block. This text should show up on the back end.</p>
+                <p className="p-6 bg-orange-200 text-orange-700">
+                    This is an example block. This text should show up on the back end.
+                </p>
             </div>
         );
     },
