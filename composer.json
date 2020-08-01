@@ -7,7 +7,7 @@
         "Plugins"
     ],
     "homepage": "https://mojavehq.com/plugins/bricks",
-    "license": "GPL-2.0-or-later",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mojave HQ",
