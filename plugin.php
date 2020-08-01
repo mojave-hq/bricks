@@ -44,9 +44,9 @@ function register()
     \register_block_type(
         'bricks/block',
         [
-            'style'         => 'bricks-css',
-            'editor_script' => 'bricks-js',
-            'editor_style'  => 'bricks-editor-css',
+            'style'         => 'bricks-style',
+            'editor_script' => 'bricks-script',
+            'editor_style'  => 'bricks-editor-style',
         ]
     );
 }

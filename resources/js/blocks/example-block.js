@@ -22,10 +22,10 @@ const { registerBlockType } = wp.blocks; // Import registerBlockType() from wp.b
  */
 registerBlockType('bricks/example-block', {
     title: __('Example Bricks Block'), // Block title.
-    icon: 'shield', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
+    icon: 'sticky', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
     category: 'common', // Block category — Group blocks together based on common traits E.g. common, formatting, layout widgets, embed.
     keywords: [
-        __('Example Bricks Block'),
+        __('Example Bricks Block')
     ],
 
     /**
@@ -43,7 +43,7 @@ registerBlockType('bricks/example-block', {
         return (
             <div className={ props.className }>
                 <p className="p-6 bg-orange-200 text-orange-700">
-                    This is an example block. This text should show up on the back end.
+                    This is an example block. This text should show up in the editor.
                 </p>
             </div>
         );
@@ -68,5 +68,5 @@ registerBlockType('bricks/example-block', {
                 </p>
             </div>
         );
-    },
+    }
 });
