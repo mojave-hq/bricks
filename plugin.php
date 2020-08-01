@@ -5,7 +5,7 @@
  * Description: Bricks is a WordPress starter plugin to quickly and cleanly build Gutenburg blocks.
  * Author: Mojave HQ
  * Author URI: https://mojavehq.com/
- * Version: 0.0.1
+ * Version: 1.0.0
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt.
  */

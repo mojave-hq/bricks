@@ -1,6 +1,6 @@
 {
   "name": "bricks",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Bricks is a WordPress starter plugin to quickly and cleanly build Gutenberg blocks.",
   "author": "Mojave HQ",
   "license": "GPL-2.0-or-later",
