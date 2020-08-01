@@ -11,7 +11,8 @@
     "authors": [
         {
             "name": "Mojave HQ",
-            "email": "team@mojavehq.com"
+            "email": "team@mojavehq.com",
+            "homepage": "https://mojavehq.com"
         },
         {
             "name": "Contributors",
