@@ -5,7 +5,7 @@
  * Description: Bricks is a WordPress starter plugin to quickly and cleanly build Gutenberg blocks with Tailwind CSS.
  * Author: Mojave HQ
  * Author URI: https://mojavehq.com/
- * Version: 1.0.0
+ * Version: 1.0.2
  * License: MIT
  * License URI: https://github.com/mojave-hq/bricks/blob/master/LICENSE.md.
  */

@@ -1,6 +1,6 @@
 {
   "name": "bricks",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Bricks is a WordPress starter plugin to quickly and cleanly build Gutenberg blocks with Tailwind CSS.",
   "author": "Mojave HQ",
   "license": "MIT",
