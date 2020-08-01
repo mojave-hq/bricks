@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Bricks
  * Plugin URI: https://mojavehq.com/plugins/bricks
- * Description: Bricks is a WordPress starter plugin to quickly and cleanly build Gutenburg blocks.
+ * Description: Bricks is a WordPress starter plugin to quickly and cleanly build Gutenberg blocks with Tailwind CSS.
  * Author: Mojave HQ
  * Author URI: https://mojavehq.com/
  * Version: 1.0.0

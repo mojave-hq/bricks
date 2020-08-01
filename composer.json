@@ -1,7 +1,7 @@
 {
     "name": "mojave-hq/bricks",
     "type": "wordpress-plugin",
-    "description": "Bricks is a WordPress starter plugin to quickly and cleanly build Gutenburg blocks.",
+    "description": "Bricks is a WordPress starter plugin to quickly and cleanly build Gutenberg blocks with Tailwind CSS.",
     "keywords": [
         "WordPress",
         "Plugins"
