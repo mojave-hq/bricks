@@ -2,10 +2,10 @@
 /**
  * Plugin Name: Bricks
  * Plugin URI: https://mojavehq.com/plugins/bricks
- * Description: Bricks is a starter plugin for building Gutenburg blocks.
+ * Description: Bricks is a WordPress starter plugin to quickly and cleanly build Gutenburg blocks.
  * Author: Mojave HQ
  * Author URI: https://mojavehq.com/
- * Version: 1.0.0
+ * Version: 0.0.1
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
  */
@@ -50,4 +50,4 @@ function register()
 	);
 }
 
-\add_action('init', 'MojaveHQ\Bricks\register');
+\add_action('init', __NAMESPACE__ . '\\register');

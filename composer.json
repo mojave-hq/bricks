@@ -1,11 +1,33 @@
 {
     "name": "mojave-hq/bricks",
+    "type": "wordpress-plugin",
     "description": "Bricks is a WordPress starter plugin to quickly and cleanly build Gutenburg blocks.",
+    "keywords": [
+        "WordPress",
+        "Plugins"
+    ],
+    "homepage": "https://mojavehq.com/plugins/bricks",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Mojave HQ",
             "email": "team@mojavehq.com"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/mojave-hq/bricks/graphs/contributors"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+          "Plugin\\": "plugin/"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "support": {
+        "issues": "https://github.com/mojave-hq/bricks/issues",
+        "source": "https://github.com/mojave-hq/bricks"
+    }
 }
