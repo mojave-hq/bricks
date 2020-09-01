@@ -23,7 +23,7 @@
     "laravel-mix-tailwind": "^0.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "tailwindcss": "^1.6.2"
+    "tailwindcss": "^1.7.6"
   },
   "main": "index.js",
   "scripts": {
